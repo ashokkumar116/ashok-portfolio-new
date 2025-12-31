@@ -7,7 +7,7 @@ const App = () => {
 
   useGSAP(()=>{
     ScrollSmoother.create({
-      smooth: 1, 
+      smooth: 1.5, 
       effects: true, 
       smoothTouch: 0.1 
     });
