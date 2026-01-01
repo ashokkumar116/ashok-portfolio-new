@@ -17,11 +17,10 @@ const SoftGradientMesh = () => {
             transparent 65%
           ),
           radial-gradient(
-            at 50% 80%,
-            rgba(236,72,153,0.18),
             transparent 70%
           )
         `,
+        transform: "translateZ(0)",
       }}
     />
   )
