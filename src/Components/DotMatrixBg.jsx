@@ -9,6 +9,7 @@ const DotMatrixBg = () => {
           "radial-gradient(circle, rgba(236,72,153,0.35) 2px, transparent 2px)",
         backgroundSize: "18px 18px",
         opacity: 0.15,
+        transform: "translateZ(0)",
       }}
     />
   )
