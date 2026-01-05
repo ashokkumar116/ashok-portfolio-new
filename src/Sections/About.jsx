@@ -37,6 +37,7 @@ const About = () => {
             opacity:1,
             ease:"power2.inOut",
         },{
+            delay:1,
             scale:0,
             opacity:0,
             ease:"power2.inOut",
@@ -76,12 +77,12 @@ const About = () => {
                 trigger:"#about",
                 start:"top 30%",
                 end:"bottom top",
-                scrub:1,
+                scrub:true,
                 markers:true,
                 pin:true,
             }
         })
-        gsap.to(splitabouttitle.words,{
+        tl.to(splitabouttitle.words,{
             color:"white",
             stagger:1,
             ease:"power1.in",
