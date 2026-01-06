@@ -3,6 +3,7 @@ import Hero from './Sections/Hero'
 import { useGSAP } from '@gsap/react'
 import { ScrollSmoother } from 'gsap/all'
 import About from './Sections/About'
+import Services from './Sections/Services'
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
       <div id='smooth-content'>
         <Hero />
         <About />
+        <Services />
         <div className='h-screen'></div>
       </div>
     </div>

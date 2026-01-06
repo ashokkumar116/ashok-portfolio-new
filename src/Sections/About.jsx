@@ -78,7 +78,6 @@ const About = () => {
                 start:"top 30%",
                 end:"bottom top",
                 scrub:true,
-                markers:true,
                 pin:true,
             }
         })
