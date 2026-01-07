@@ -66,14 +66,14 @@ const Services = () => {
     return (
         <section ref={sectionRef} id='services' className='bg-[#050505] overflow-hidden'>
             <div ref={triggerRef} className='relative'>
-                <div className='sticky top-0 h-screen flex flex-col justify-center items-center overflow-hidden'>
+                <div className='sticky top-0 h-screen flex flex-col justify-center items-start overflow-hidden'>
                     
                     {/* Cinematic Background Parallax Text */}
                     <div className='parallax-bg absolute top-1/2 left-0 -translate-y-1/2 text-[20vw] font-black text-white/2 whitespace-nowrap pointer-events-none select-none uppercase leading-none'>
                         Services Services Services
                     </div>
 
-                    <div className='relative z-10 w-full px-10 mb-12 flex flex-col items-center text-center'>
+                    <div className='relative z-10 w-full px-10 md:px-20 mb-12 flex flex-col items-center text-center'>
                         <h1 className='text-4xl md:text-7xl font-bold bg-linear-to-b from-white to-gray-500 bg-clip-text text-transparent mb-4 tracking-tighter'>
                             Expertise & Services
                         </h1>
@@ -82,10 +82,10 @@ const Services = () => {
                         </p>
                     </div>
 
-                    <div ref={horizontalRef} className='flex gap-10 px-10 w-max'>
+                    <div ref={horizontalRef} className='flex gap-10 px-10 md:px-20 w-max h-[450px]'>
                         {SERVICES.map((service, index) => {
                             return (
-                                <div key={index} className='w-[400px] shrink-0'>
+                                <div key={index} className='w-[350px] md:w-[450px] h-full shrink-0'>
                                     <ServicesCard 
                                         name={service.name} 
                                         description={service.description} 

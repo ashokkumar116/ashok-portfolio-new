@@ -22,7 +22,7 @@ const ServicesCard = ({name,description,icon:Icon}) => {
     };
 
     return (
-        <div className="relative group w-100 p-px rounded-2xl transition-all duration-300 ease-out"
+        <div className="relative group w-100 p-px rounded-2xl transition-all duration-300 ease-out h-[350px]"
             onMouseMove={handleMove}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => {
